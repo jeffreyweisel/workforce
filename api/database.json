@@ -34,7 +34,8 @@
             "lastName": "Weisel",
             "computerId": 1,
             "age": 46,
-            "departmentId": 5
+            "departmentId": 5,
+            "locationId": 2
         },
         {
             "id": 2,
@@ -42,7 +43,8 @@
             "lastName": "Weisel",
             "computerId": 3,
             "age": 19,
-            "departmentId": 4
+            "departmentId": 4,
+            "locationId": 5
 
         },
         {
@@ -51,7 +53,8 @@
             "lastName": "Rosas",
             "computerId": 2,
             "age": 25,
-            "departmentId": 3
+            "departmentId": 3,
+            "locationId": 4
         },
         {
             "id": 4,
@@ -59,7 +62,8 @@
             "lastName": "Weisel",
             "computerId": 5,
             "age": 21,
-            "departmentId": 2
+            "departmentId": 2,
+            "locationId": 1
         },
         {
             "id": 5,
@@ -67,7 +71,8 @@
             "lastName": "Rosas",
             "computerId": 4,
             "age": 2,
-            "departmentId": 1
+            "departmentId": 1,
+            "locationId": 3
         }
 
     ],
@@ -94,5 +99,116 @@
             "name": "Sales"
         }
 
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Nashville" 
+        },
+        {
+            "id": 2,
+            "name": "Memphis"
+           
+        },
+        {
+            "id": 3,
+            "name": "Chattanooga"
+        },
+        {
+            "id": 4,
+            "name": "Knoxville"
+        },
+        {
+            "id": 5,
+            "name": "Clarksville"
+        }
+
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "John"
+        },
+        {
+            "id": 2,
+            "name": "Mike"
+        },
+        {
+            "id": 3,
+            "name": "Kelly"
+        },
+        {
+            "id": 4,
+            "name": "Michael"
+        },
+        {
+            "id": 5,
+            "name": "Sam"
+        },
+        {
+            "id": 6,
+            "name": "Cynthia"
+        },
+        {
+            "id": 7,
+            "name": "Clyde"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 1
+        },
+        {
+            "id": 2,
+            "customerId": 1,
+            "employeeId": 2
+        },
+        {
+            "id": 3,
+            "customerId": 2,
+            "employeeId": 3
+        },
+        {
+            "id": 4,
+            "customerId": 2,
+            "employeeId": 4
+        },
+        {
+            "id": 5,
+            "customerId": 3,
+            "employeeId": 5
+        },
+        {
+            "id": 6,
+            "customerId": 3,
+            "employeeId": 1
+        },
+        {
+            "id": 7,
+            "customerId": 7,
+            "employeeId": 2
+        },
+        {
+            "id": 8,
+            "customerId": 7,
+            "employeeId": 3
+        },
+        {
+            "id": 9,
+            "customerId": 4,
+            "employeeId": 1
+        },
+        {
+            "id": 10,
+            "customerId": 5,
+            "employeeId": 5
+        },
+        {
+            "id": 11,
+            "customerId": 6,
+            "employeeId": 3
+        }
     ]
 }

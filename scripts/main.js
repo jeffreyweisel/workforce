@@ -1,10 +1,10 @@
-import { ComputerList } from "./ComputerList.js"
+import { CustomerListList } from "./CustomerList.js"
 import { EmployeeList } from "./EmployeeList.js"
 
 const render = async () => {
 
     const employeesHTML = await EmployeeList()
-    const computerHTML = await ComputerList()
+    const customersHTML = await CustomerListList()
 
     const composedHTML = `
     
@@ -13,8 +13,16 @@ const render = async () => {
     <article class = employeeComputer>
     
     <section class ="options">
+    <h2>Employees</h2>
     ${employeesHTML}
     </section>
+    <section class ="options">
+    <h2>Customers</h2>
+    ${customersHTML}
+    </section>
+
+    
+
     
    
     
